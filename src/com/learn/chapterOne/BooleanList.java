@@ -1,5 +1,9 @@
 package com.learn.chapterOne;
 
+/*
+p34 1.1.11题 原题内容是打印二维布尔数组，*表示真，空格表示假
+*/
+
 public class BooleanList {
 	boolean[][] bList=new boolean[5][5];
 	int randomNum=0;
