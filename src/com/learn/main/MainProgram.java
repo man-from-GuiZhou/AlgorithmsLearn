@@ -1,6 +1,8 @@
 package com.learn.main;
 
 import com.learn.chapterOne.BooleanList;
+import com.learn.chapterOne.Fibonacci;
+import com.learn.chapterOne.LastOne;
 import com.learn.chapterOne.LgN;
 import com.learn.chapterOne.TriMartix;
 /*
@@ -14,9 +16,18 @@ public class MainProgram {
 		//new BooleanList().printList();
 		//new TriMartix().triMartix();
 		//new LgN().reNumber(33);
+		/*
 		for(int temp:numCount(fillList(9),3)){
 			System.out.print(temp+" ");
-		} 
+		} */
+		
+		/*
+		for(int N=0;N<100;N++){
+			System.out.println(N+" "+Fibonacci.F2(N));
+		}*/
+		
+		LastOne.Euclid(1111111, 1234567);
+		
 	}
 	/*
 	 * 下列方法是用来填充整形数组
